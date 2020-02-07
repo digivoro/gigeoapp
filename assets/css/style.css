@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Futura";
-  src: url("../../fonts/futura-medium-bt.ttf");
+  font-family: Futura;
+  src: url("../fonts/futura-medium-bt.ttf");
 }
 h2 {
   font-family: "Montserrat", sans-serif;
@@ -23,7 +23,7 @@ h3 {
   align-items: flex-start;
   color: inherit;
   font-size: 2rem;
-  font-family: "Century Gothic", sans-serif;
+  font-family: Futura, "Century Gothic", sans-serif;
   font-weight: 800;
 }
 .navbar .navbar-brand .navbar-brand__art {
