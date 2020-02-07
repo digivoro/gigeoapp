@@ -1,0 +1,33 @@
+.navbar {
+  color: black;
+
+  .navbar-brand {
+    display: flex;
+    align-items: flex-start;
+    color: inherit;
+    font-size: 2rem;
+    font-family: "Century Gothic", sans-serif;
+    font-weight: 800;
+    .navbar-brand__art {
+      font-size: $small;
+      font-weight: $regular;
+    }
+  }
+  .nav-item {
+    color: inherit;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    padding: 1.5rem;
+
+    .navbar-brand {
+      padding-left: 2rem;
+      font-size: 3rem;
+    }
+    i {
+      color: rgb(100, 100, 100);
+    }
+  }
+}

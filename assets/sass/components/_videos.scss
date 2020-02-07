@@ -1,0 +1,27 @@
+.video__thumbnail {
+  width: 100%;
+  margin-bottom: 1rem;
+  height: 150px;
+}
+
+.video__title {
+  font-weight: $black;
+  font-size: $medium;
+  margin-bottom: 0.2rem;
+}
+
+@media (max-width: 576px) {
+  .video {
+    margin-bottom: 1rem;
+  }
+  .video__thumbnail {
+    height: 230px;
+  }
+  .video__title {
+    font-size: 1.5rem;
+    font-weight: $semi-black;
+  }
+  .video__info {
+    font-size: 1.4rem;
+  }
+}

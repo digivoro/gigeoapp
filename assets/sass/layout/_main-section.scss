@@ -1,0 +1,23 @@
+.main__video-list {
+  display: flex;
+  flex-wrap: wrap;
+  // margin: 0 -20px;
+}
+
+.main__title {
+  margin: 2rem 0;
+  font-size: $large;
+  font-weight: $bold;
+}
+
+@media (max-width: 576px) {
+  .main {
+    padding: 0 50px;
+  }
+
+  .main__title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: $semi-bold;
+  }
+}

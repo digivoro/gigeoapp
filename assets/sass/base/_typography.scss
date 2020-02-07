@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Futura";
+  src: url("../../fonts/futura-medium-bt.ttf");
+}
+
+h2 {
+  font-family: $montserrat;
+  font-weight: 500;
+  color: black;
+}
+
+h3 {
+  font-family: $montserrat;
+  font-weight: $black;
+  font-size: $medium;
+  color: black;
+}
